@@ -1,5 +1,5 @@
 /*
- * Verbose register version including, comments, #include, some type specifications and whitespaces
+ * Verbose version including, comments, #include, some type specifications and whitespaces
  *
  * For the minimized versions, see main.c
  * */
