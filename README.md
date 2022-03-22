@@ -6,7 +6,7 @@ The brainfuck code is fed directly as a program argument. The following example 
 ./bf.exe "-[------->+<]>-.--[-->+++<]>.[--->+<]>--."
 ```
 
-####Note
+#### Note
 
 Verbose: `main_verbose.c`,
 Minimized: `main.c`
