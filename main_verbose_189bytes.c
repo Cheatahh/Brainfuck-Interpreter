@@ -1,7 +1,7 @@
 /*
- * Verbose version including, comments, #include, some type specifications and whitespaces
+ * Verbose version (outdated) including, comments, #include, some type specifications and whitespaces
  *
- * For the minimized versions, see main.c
+ * For the minimized versions (-> 179 Bytes), see main.c
  * */
 
 #include "stdio.h"
@@ -60,7 +60,7 @@ int main(int jumpOffset, char **instructions){
                 :
                     !a ?                            // . instruction
                         *pointer=getchar()          // output the byte at the data pointer
-                    :                               // , instructions
+                    :                               // , instruction
                         putchar(*pointer); // accept one byte of input, storing its value in the byte at the data pointer
     }
 }
