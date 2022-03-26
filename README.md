@@ -2,7 +2,7 @@
 Brainfuck Interpreter written in C. Weighs in on 179 Bytes (Source).
 
 The brainfuck code is fed directly as a program argument. The following example prints `Hi!` 
-```brainfuck
+```
 ./bf.exe "-[------->+<]>-.--[-->+++<]>.[--->+<]>--."
 ```
 
