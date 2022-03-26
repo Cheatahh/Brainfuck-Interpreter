@@ -61,6 +61,6 @@ int main(int jumpOffset, char **instructions){
                     !a ?                            // . instruction
                         *pointer=getchar()          // output the byte at the data pointer
                     :                               // , instruction
-                        putchar(*pointer); // accept one byte of input, storing its value in the byte at the data pointer
+                        putchar(*pointer);          // accept one byte of input, storing its value in the byte at the data pointer
     }
 }
