@@ -37,10 +37,10 @@ int main(int jumpOffset, char** input) {
                             a - 4?                                  // , instruction
                                 *pointer = getchar()                // accept one byte of input, storing its value in the byte at the data pointer
                             :                                       // . instruction
-                                putchar(*pointer)          // output the byte at the data pointer
+                                putchar(*pointer)                   // output the byte at the data pointer
                 :
                     *pointer ?                                      // [ instruction
-                        main(instructions[1], input)      // enter loop, start subroutine
+                        main(instructions[1], input)                // enter loop, start subroutine
                     :
                         nests++                                     // skipping loop, entering nest mode
             :
