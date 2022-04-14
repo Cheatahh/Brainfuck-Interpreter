@@ -12,7 +12,7 @@ char d[999],*p=d,c,a,**v;*n;main(o,i){for(v=i+4;c=*v[0]++;)a=c%7,n?c&64?n+=1-a:0
  * For the verbose version, see main_verbose_179bytes.c
  * */
 
-char d[999],*p=d,c,a,**v;*n;main(o,i){for(v=i;c=*v[1]++;)a=c%7,n?c&64?n+=1-a:0:c-93?a?c&1?*p+=2-a:c&16?p+=a-5:a-4?*p=getchar():putchar(*p):*p?main(v[1],i):n++:*p?v[1]=o:0;v[1]--;}
+//char d[999],*p=d,c,a,**v;*n;main(o,i){for(v=i;c=*v[1]++;)a=c%7,n?c&64?n+=1-a:0:c-93?a?c&1?*p+=2-a:c&16?p+=a-5:a-4?*p=getchar():putchar(*p):*p?main(v[1],i):n++:*p?v[1]=o:0;v[1]--;}
 
 /*
  * Minimized 32-bit register version (189 Bytes)
