@@ -1,4 +1,12 @@
 /*
+ * Minimized 8-bit register version (175 Bytes)
+ *
+ * For the verbose version, see main_verbose_175bytes.c
+ * */
+
+char d[999],*p=d,c,a,**v;*n;main(o,i){for(v=i+4;c=*v[0]++;)a=c%7,n?c&64?n+=1-a:0:c-93?a?c&1?*p+=2-a:c&16?p+=a-5:a-4?*p=getchar():putchar(*p):*p?main(*v,i):n++:*p?*v=o:0;--*v;}
+
+/*
  * Minimized 8-bit register version (179 Bytes)
  *
  * For the verbose version, see main_verbose_179bytes.c
