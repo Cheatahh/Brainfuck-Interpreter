@@ -1,5 +1,5 @@
 # Brainfuck-Interpreter
-Brainfuck Interpreter written in C. Weighs in on 175 Bytes (Source).
+A [Brainfuck](https://esolangs.org/wiki/Brainfuck) Interpreter written in C. Weighs in on 175 Bytes (Source).
 
 The brainfuck code is fed directly as a program argument. The following example prints `Hi!` 
 ```
